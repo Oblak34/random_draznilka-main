@@ -1,3 +1,5 @@
+var generateRandom = function(){
+
 // массивы со словами
 let randomBodyParts = ["голова", "глаз", "нос", "пупок"];
 let randomAdjectives = ["вонючая", "дебильная", "вялая", "унылая"];
@@ -15,4 +17,8 @@ var random = function(words){
 // склеиваем
 let draznilka = "У тебя " + random(randomBodyParts) + " словно " + random(randomAdjectives) + " " + random(randomWords) + "!!!";
 
-console.log(draznilka);
+return draznilka;
+
+}
+
+
